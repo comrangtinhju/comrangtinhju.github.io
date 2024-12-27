@@ -84,6 +84,29 @@ nav a.active{
         border-bottom: 0.5rem solid #cc1111;
     }
 }
+.nav__mobile{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width:320px;
+    background-color:#fff;
+    transform: translateX(-100%);
+    transition: all 0.4s ease-in-out;
+}
+.nav__mobile-link{
+  display:block;
+  padding: 1rem;
+}
+.nav__mobile-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width:20px;
+  height: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
 section{
     min-height: 100vh;
     padding: 5rem 9% 5rem;
